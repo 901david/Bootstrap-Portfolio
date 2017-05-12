@@ -1,0 +1,193 @@
+
+.media-object{
+	width:100px;
+}
+
+.borderFix {
+	border:2px solid #DDDDDD;
+	padding: 25px;
+	background-color: white;
+	margin-bottom: 25px;
+}
+.connectionBorder {
+	border:2px solid #DDDDDD;
+	padding: 15px;
+	margin-left: 25px;
+	background-color: white;
+}
+
+.centerIcons {
+	margin-left: 25px;
+	display: inline-flex;
+}
+.centerIcons a {
+	padding:8px;
+}
+body {
+	background-image: url(assets/images/back.png);
+	color:#777777;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding-top: 75px;
+}
+.paraBorder {
+	margin: 5px;
+}
+
+.backWhite {
+	background-color: white;
+}
+
+.footColor p {
+	margin-top: 20px;
+	color:white;
+	padding: 15px;
+	font-size: 10px;
+}
+.footColor {
+	background-color: #666666;
+	border-top:10px solid #4AAAA5;
+}
+hr {
+	border:2px solid #DDDDDD;
+}
+.headerTextOne {
+	font-weight: bold;
+	font-size: 24px;
+	white-space: nowrap;
+	color:#4AAAA5;
+}
+.headerTextTwo {
+	font-weight: bold;
+	font-size: 24px;
+	white-space: nowrap;
+	color:#4AAAA5;
+}
+
+nav a {
+	font-size: 18px;
+	color:#777777;
+	display:inline-block;
+}
+
+nav a:link{
+	color:#A7B8C9;
+	text-decoration: none;
+}
+nav a:visited{
+	color:#A7B8C9;
+	text-decoration: none;
+}
+nav a:hover {
+	color:black;
+	text-decoration: underline;
+}
+nav a:active {
+	color:green;
+	text-decoration: underline;
+}
+.img-responsive {
+	width:100%;
+}
+footer {
+	margin-top: 25px;
+
+}
+.imgsize {
+	width:40px;
+	height:auto;
+	margin:none;
+}
+
+.navbar {
+	background-color: #fff;
+}
+.navbar-brand span {
+	color:white;
+	font-size: 24px;
+	font-weight: bolder;
+	width:500px;
+	line-height:49px;
+	background-color: #4AAAA5;
+	padding: 23px;
+}
+
+
+/*This will contain My media queries*/
+@media  screen and (min-width: 1200px) {
+.connectionBorder {
+	margin-top:0;
+}
+
+.navbar-brand span {
+	line-height:22px;
+	padding:12px;
+}
+.imgsize {
+	width:40px;
+	height:auto;
+	margin:none;
+}
+.navbar-right {
+    float: right!important;
+    margin-right: -10px;
+    line-height: 46px;
+}
+}
+@media screen and (max-width: 1199px) and (min-width:  992px) {
+.navbar-brand span {
+	line-height:21px;
+	padding:12px;
+}
+.navbar-right {
+	float: right!important;
+    margin-right: -10px;
+    line-height: 50px;
+}
+
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+.navbar-brand span {
+	line-height:19px;
+	padding:13px;
+}
+.navbar-right {
+	float: right!important;
+    margin-right: -10px;
+    line-height: 50px;
+}
+
+}
+@media screen and (max-width: 767px) {
+body{
+	padding-top: 135px;
+	}
+.navbar-brand span {
+	line-height:19px;
+	padding:13px 454px 13px 13px;
+	border-bottom:5px solid #DDDDDD;
+	white-space: nowrap;
+}
+.navbar-right {
+	clear:both;
+    margin-left: 263px;
+    line-height: 56px;
+}
+.imgsize {
+	width:80px;
+	height: auto;
+}
+}
+@media screen and (max-width: 480px) {
+.navbar-brand span {
+	padding:13px 167px 13px 13px;
+	
+}	
+.navbar-right {
+	margin-left: 157px;
+}
+}
+
+
+
+
+
