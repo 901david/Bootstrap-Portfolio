@@ -110,7 +110,35 @@ footer {
 	background-color: #4AAAA5;
 	padding: 23px;
 }
+.bannerCreate {
+    width: 100%;
+    height:25px;
+    background-color: #4AAAA5;
+    opacity: 0.95;
+    filter: alpha(opacity:95);
+    z-index: 99;
+    position:relative;
+    bottom:35px;  
+}
+.bannerCreate p {
+	color: #fff;
+	z-index: 99;
+	font-size: 18px;
+    text-align: center;
+    white-space: nowrap;
+    
+}
 
+.red{
+    color:red;
+    }
+.form-area
+{
+    background-color: #FAFAFA;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	border: 1px solid GREY;
+	}
 
 /*This will contain My media queries*/
 @media  screen and (min-width: 1200px) {
@@ -143,6 +171,10 @@ footer {
     margin-right: -10px;
     line-height: 50px;
 }
+.bannerCreate p {
+	font-size: 16px;
+	line-height: 25px;
+}
 
 }
 @media screen and (max-width: 991px) and (min-width: 768px) {
@@ -155,7 +187,28 @@ footer {
     margin-right: -10px;
     line-height: 50px;
 }
-
+.spaceBetweenFix {
+	margin-top: 18px;
+}
+.bannerCreate {
+    width: 100%;
+    height:50px;
+    background-color: #4AAAA5;
+    opacity: 0.95;
+    filter: alpha(opacity:95);
+    z-index: 99;
+    position:relative;
+    bottom:75px;  
+}
+.bannerCreate p {
+	color: #fff;
+	z-index: 99;
+	font-size: 28px;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 50px;
+    
+}
 }
 @media screen and (max-width: 767px) {
 body{
@@ -176,6 +229,23 @@ body{
 	width:80px;
 	height: auto;
 }
+.spaceBetweenFix {
+	margin-top: 18px;
+}
+.bannerCreate {
+    width: 100%;
+    height:50px;
+    background-color: #4AAAA5;
+    opacity: 0.95;
+    filter: alpha(opacity:95);
+    z-index: 99;
+    position:relative;
+    bottom:75px;  
+}
+.bannerCreate p {
+	line-height: 50px;
+	font-size: 28px;
+}
 }
 @media screen and (max-width: 480px) {
 .navbar-brand span {
@@ -184,6 +254,17 @@ body{
 }	
 .navbar-right {
 	margin-left: 157px;
+}
+.spaceBetweenFix {
+	margin-top: 18px;
+}
+.bannerCreate {
+	position:relative;
+    bottom:60px;  
+}
+.bannerCreate p {
+	font-size: 24px;
+}
 }
 }
 
