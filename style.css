@@ -274,10 +274,12 @@ body{
 }
 .bannerCreate {
 	position:relative;
-    bottom:60px;  
+    bottom:37px;
+    height:25px;  
 }
 .bannerCreate p {
-	font-size: 24px;
+	font-size: 18px;
+	line-height: 24px;
 }
 }
 @media screen and (max-width: 405px) {
