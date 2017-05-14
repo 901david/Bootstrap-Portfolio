@@ -106,11 +106,8 @@ footer {
 	color:white;
 	font-size: 24px;
 	font-weight: bolder;
-	width:100%;
-	max-width:500px;
-	line-height:49px;
-	background-color: #4AAAA5;
-	padding: 23px;
+	line-height:47px;
+	white-space: nowrap;
 }
 .bannerCreate {
     width: 100%;
@@ -142,15 +139,20 @@ footer {
 	border: 1px solid GREY;
 	}
 
+.boxFix {
+	width:300px;
+	position:relative;
+	right:13px;
+	bottom:14px;
+	height:50px;
+	background-color: #4AAAA5;
+	text-align: center;
+}
+
 /*This will contain My media queries*/
 @media  screen and (min-width: 1200px) {
 .connectionBorder {
 	margin-top:0;
-}
-
-.navbar-brand span {
-	line-height:22px;
-	padding:12px;
 }
 .imgsize {
 	width:40px;
@@ -164,10 +166,7 @@ footer {
 }
 }
 @media screen and (max-width: 1199px) and (min-width:  992px) {
-.navbar-brand span {
-	line-height:21px;
-	padding:12px;
-}
+
 .navbar-right {
 	float: right!important;
     margin-right: -10px;
@@ -177,13 +176,13 @@ footer {
 	font-size: 16px;
 	line-height: 25px;
 }
+.centerIcons {
+	margin-left: 7px;
+}
 
 }
 @media screen and (max-width: 991px) and (min-width: 768px) {
-.navbar-brand span {
-	line-height:19px;
-	padding:13px;
-}
+
 .navbar-right {
 	float: right!important;
     margin-right: -10px;
@@ -216,16 +215,22 @@ footer {
 body{
 	padding-top: 135px;
 	}
-.navbar-brand span {
-	line-height:19px;
-	padding:13px 454px 13px 13px;
-	border-bottom:5px solid #DDDDDD;
-	white-space: nowrap;
+.boxFix {
+	width:768px;
+	right:15px;
+	height:58px;
+	border-bottom: 8px solid #CCCCCC;
 }
 .navbar-right {
 
-    margin-left: 263px;
+    margin-left: 212px;
     line-height: 56px;
+    margin-top: 9px;
+
+}
+.navbar-right a {
+	padding-left: 20px;
+	padding-right: 20px;
 }
 .imgsize {
 	width:80px;
@@ -249,13 +254,20 @@ body{
 	font-size: 28px;
 }
 }
+@media screen and (max-width: 555px) {
+	.navbar-right {
+		margin-left: 110px;
+	}
+	.boxFix {
+		width:555px;
+	}
+}
 @media screen and (max-width: 480px) {
-.navbar-brand span {
-	padding:13px 167px 13px 13px;
-	
+.boxFix {
+	width:480px;
 }	
 .navbar-right {
-	margin-left: 157px;
+	margin-left: 67px;
 }
 .spaceBetweenFix {
 	margin-top: 18px;
@@ -268,6 +280,39 @@ body{
 	font-size: 24px;
 }
 }
+@media screen and (max-width: 405px) {
+	.boxFix {
+	width:405px;
+}	
+.navbar-right {
+	margin-left: 32px;
+}
+}
+@media screen and (max-width: 375px) {
+	.boxFix {
+	width:375px;
+}	
+.navbar-right {
+	margin-left: 25px;
+}
+}
+@media screen and (max-width: 360px) {
+	.boxFix {
+	width:360px;
+}	
+.navbar-right {
+	margin-left: 73px;
+}
+.navbar-right a {
+	padding: 0;
+}
+@media screen and (max-width: 300px) {
+	.boxFix {
+		width:300px;
+	}
+	.navbar-right {
+		margin-left: 50px;
+	}
 }
 
 
